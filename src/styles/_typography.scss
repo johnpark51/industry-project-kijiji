@@ -1,0 +1,13 @@
+@use './mixins' as *;
+@use './variables' as *;
+
+body {
+    font-family: 'Larsseit', sans-serif;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../../assets/fonts/Ubuntu-Light.ttf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
