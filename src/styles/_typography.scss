@@ -7,7 +7,25 @@ body {
 
 @font-face {
     font-family: 'Larsseit';
-    src: url("../../assets/fonts/Ubuntu-Light.ttf") format("opentype");
+    src: url("../../assets/fonts/LarsseitThin.otf") format("opentype");
     font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../../assets/fonts/LarsseitLight.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../../assets/fonts/LarsseitMedium.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../../assets/fonts/LarsseitBold.otf") format("opentype");
+    font-weight: 700;
     font-style: normal;
 }
