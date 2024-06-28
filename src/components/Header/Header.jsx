@@ -80,8 +80,8 @@ function Header() {
 							d="M19.5 20.002a.514.514 0 01-.098-.01l-2.206-.44-1.43-.356a.525.525 0 00-.354.04 6.207 6.207 0 01-3.412.766 8 8 0 118-8 8.988 8.988 0 01-.859 3.598l.408 2.04.436 1.741a.5.5 0 01-.485.621zm-7.5-15a7 7 0 000 14 5.258 5.258 0 002.98-.668 1.516 1.516 0 011.027-.109l1.408.35 1.408.282-.25-.998-.446-2.23a.502.502 0 01.048-.33A8.147 8.147 0 0019 12.003a7 7 0 00-7-7zm3.195 13.783z"></path>
 					</svg>
 				</div>
-					<button className="header__profile">Z</button>
-					<img className="header__arrow-down" src={arrowDown} />
+				<button className="header__profile">Z</button>
+				<img className="header__arrow-down" src={arrowDown} />
 				<button className="header__post-ad">Post Ad</button>
 			</header>
 		</div>
