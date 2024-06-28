@@ -41,6 +41,7 @@
     margin-left: 2rem;
     margin-right: 1rem;
     gap: 1rem;
+    width: 20%;
   }
   &__search-button {
     border-radius: 4px;
@@ -71,7 +72,7 @@
   }
   &__arrow-down {
     width: 1rem;
-    margin-left: 1rem;
+    margin: 0 1rem;
   }
   &__post-ad {
     border-radius: 4px;
