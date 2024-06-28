@@ -4,7 +4,6 @@ import "./HomePage.scss";
 function HomePage() {
 	return (
 		<main>
-			<UserCard />
 		</main>
 	);
 }
