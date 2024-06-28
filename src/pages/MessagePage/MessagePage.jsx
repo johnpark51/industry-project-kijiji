@@ -12,10 +12,6 @@ function MessagePage() {
 				<h1>Put Message box component here</h1>
 			</div>
 			<div className="message-page__right">
-				<UserCard />
-                <ReportModal />
-                <Feedback />
-                <ReportedUser />
 			</div>
 		</div>
 	);
