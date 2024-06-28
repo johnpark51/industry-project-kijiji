@@ -1,7 +1,15 @@
 import "./Item.scss";
 import lama from "../../assets/images/lama.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const Item = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = (e) => {
+    e.preventDefault();
+    navigate("/msg");
+  };
+
   return (
     <div className="item-container">
       <h1 className="item-container__header">My Messages</h1>
@@ -15,11 +23,11 @@ const Item = () => {
         </button>
       </div>
       <div className="item-container__select-btn">
-        <input type="checkbox" />
+        <input type="checkbox" className="checkbox-item" />
         <p className="item-container__select-btn--text">Select All</p>
       </div>
-      <div className="item-container__items">
-        <input type="checkbox" />
+      <div className="item-container__items" onClick={handleNavigate}>
+        <input type="checkbox" className="checkbox-item" />
         <img src={lama} alt="item_img" />
         <div className="item-container__items-texts">
           <div className="item-container__items-texts--con">
