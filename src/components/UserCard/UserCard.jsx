@@ -1,6 +1,10 @@
 import "./UserCard.scss";
 
+import { useState } from "react";
+
 function UserCard() {
+    const [open, setOpen] = useState(null)
+
 	return (
 		<section className="user">
 			<div className="user__top">
@@ -25,7 +29,9 @@ function UserCard() {
                     <p>on kijiji</p>
                 </div>
             </section>
-            <button className="user__report">Report</button>
+            <button className="user__report" onClick={() => {
+                setOpen(true)
+            }}>Report</button>
 		</section>
 	);
 }
