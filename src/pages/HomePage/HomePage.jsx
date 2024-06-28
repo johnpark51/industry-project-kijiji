@@ -1,10 +1,13 @@
 import "./HomePage.scss";
+import Item from "../../components/Item/Item";
 
 function HomePage() {
-	return (
-		<>
-		</>
-	);
+  return (
+    <>
+      <Item />
+    </>
+  );
 }
 
 export default HomePage;
+
