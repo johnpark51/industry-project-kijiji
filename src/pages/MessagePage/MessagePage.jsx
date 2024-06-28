@@ -1,5 +1,6 @@
 import Feedback from "../../components/Feedback/Feedback";
 import ReportModal from "../../components/ReportModal/ReportModal";
+import ReportedUser from "../../components/ReportedUser/ReportedUser";
 import UserCard from "../../components/UserCard/UserCard";
 import "./MessagePage.scss";
 
@@ -14,6 +15,7 @@ function MessagePage() {
 				<UserCard />
                 <ReportModal />
                 <Feedback />
+                <ReportedUser />
 			</div>
 		</div>
 	);
