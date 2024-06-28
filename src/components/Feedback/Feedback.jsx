@@ -1,6 +1,8 @@
 import "./Feedback.scss";
 
-function Feedback() {
+function Feedback({open, onClose}) {
+
+    if (!open) return null;
 	return (
 		<div className="feedback">
             <h5 className="feedback__header">Thank you for your feedback!</h5>

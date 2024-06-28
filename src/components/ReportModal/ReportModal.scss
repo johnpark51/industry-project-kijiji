@@ -18,8 +18,10 @@
 	flex-direction: column;
 	gap: 0.5rem;
 	width: 16rem;
-    top: 50%;
-    left: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    left: 41%;
 	&__header {
 		margin: 0 auto;
 		font-size: 0.7rem;
@@ -30,6 +32,8 @@
 	}
 	&__checkbox {
 		margin-right: 0.5rem;
+        width: 0.6rem;
+        height: 0.6rem;
 	}
 	&__check-text {
 		font-size: 0.5rem;
