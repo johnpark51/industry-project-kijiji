@@ -68,7 +68,7 @@ const Chat = () => {
               </div>
             </div>
             <div className="chat-container">
-              <ul id="messages" className="messages">
+              <ul id="messages" className="messages-inputs">
                 {messages.map((msg, index) => (
                   <li
                     key={index}
