@@ -1,10 +1,11 @@
 import "./HomePage.scss";
 import Item from "../../components/Item/Item";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
     <>
-      <Item />
+      <Link to="/msg"><Item /></Link>
     </>
   );
 }

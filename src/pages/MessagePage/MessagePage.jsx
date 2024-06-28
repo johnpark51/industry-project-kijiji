@@ -7,7 +7,7 @@ import Chat from "../../components/Chat/Chat";
 
 function MessagePage() {
   return (
-    <div id="container">
+    <div id="messagepage-container">
       <div className="message-page__right">
         <Chat />
         <UserCard />
