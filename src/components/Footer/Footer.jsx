@@ -63,7 +63,7 @@ function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 40 85.6"
 							aria-hidden="true"
-							class="sc-de6b7fc2-9 fHVoPS"
+							// class="sc-de6b7fc2-9 fHVoPS"
 							focusable="false"
 							height="20"
 							width="20">
@@ -77,7 +77,7 @@ function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 40 40"
 							aria-hidden="true"
-							class="sc-de6b7fc2-10 hyExHD"
+							// class="sc-de6b7fc2-10 hyExHD"
 							focusable="false"
 							height="20"
 							width="20">
@@ -95,7 +95,7 @@ function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 40 32.5"
 							aria-hidden="true"
-							class="sc-de6b7fc2-11 iIEVGq"
+							// class="sc-de6b7fc2-11 iIEVGq"
 							focusable="false"
 							height="20"
 							width="20">
@@ -109,7 +109,7 @@ function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 63.7 61.6"
 							aria-hidden="true"
-							class="sc-de6b7fc2-12 ePTkmt"
+							// class="sc-de6b7fc2-12 ePTkmt"
 							focusable="false"
 							height="20"
 							width="20">
@@ -123,7 +123,7 @@ function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 37.3 26.6"
 							aria-hidden="true"
-							class="sc-de6b7fc2-13 knXZh"
+							// class="sc-de6b7fc2-13 knXZh"
 							focusable="false"
 							height="20"
 							width="20">
@@ -131,10 +131,10 @@ function Footer() {
 							<path
 								fill="none"
 								stroke="#fff"
-								stroke-miterlimit="10"
-								stroke-width="2"
+								strokeMiterlimit="10"
+								strokeWidth="2"
 								d="M34.8 3.4c-1-1.7-2-2-4.1-2.2-2.2-.1-7.5-.2-12.1-.2s-9.9.1-12 .2c-2.1.1-3.1.4-4.1 2.2C1.5 5.1 1 8.1 1 13.3s.5 8.2 1.5 9.9c1 1.7 2 2 4.1 2.2 2.1.1 7.4.2 12 .2s9.9-.1 12-.2c2.1-.1 3.1-.5 4.1-2.2 1-1.7 1.5-4.7 1.5-9.9.1-5.2-.5-8.2-1.4-9.9z"
-								clip-rule="evenodd"></path>
+								clipRule="evenodd"></path>
 							<path fill="#fff" d="M15.1 6.8v13l10-6.5z"></path>
 						</svg>
 					</button>
