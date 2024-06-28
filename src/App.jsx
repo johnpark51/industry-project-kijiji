@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage/HomePage';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
+import MessagePage from "./pages/MessagePage/MessagePage";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
         <NavBar />
 				<Routes>
 					<Route path="/" element={<HomePage />}></Route>
+          <Route path="/" element={<MessagePage />}></Route>
 				</Routes>
 			</BrowserRouter>
       <Footer />
