@@ -2,51 +2,52 @@
 @use "../../styles/partials/mixins" as *;
 
 #container-navbar {
-	display: flex;
-	padding: 0.3rem 4rem;
-	justify-content: space-between;
-	align-items: center;
-	background-color: $grey8;
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 0.3rem 6rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $grey8;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
 }
 
 .messages {
-    border-bottom: 3px solid $green;
-    padding-bottom: 1rem;
+  border-bottom: 3px solid $green;
+  padding-bottom: 1rem;
 }
 
 .navbar {
-    padding: 1rem 0 0 0;
-	&__button {
-        background-color: $grey8;
-		color: $grey3;
-		border: 0;
-		padding-right: 1rem;
-		margin-right: 1rem;
-		border-right: 1px solid $grey6;
-		&--trending {
-			background-color: $grey8;
-			color: $grey3;
-			border: 0;
-		}
-        &--messages {
-            color: black;
-            border-right: 0;
-            padding-right: 0;
-            margin-right: 0;
-        }
-        &--favourites {
-            border-left: 1px solid $grey6;
-            margin-left: 1rem;
-            padding-left: 1rem;
-        }
-	}
-    &__settings {
-        width: 1rem;
-        margin-left: 0.5rem;
+  padding: 1rem 0 0 0;
+  &__button {
+    background-color: $grey8;
+    color: $grey3;
+    border: 0;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 1px solid $grey6;
+    &--trending {
+      background-color: $grey8;
+      color: $grey3;
+      border: 0;
     }
-    &__right {
-        display: flex;
-        align-items: center;
+    &--messages {
+      color: black;
+      border-right: 0;
+      padding-right: 0;
+      margin-right: 0;
     }
+    &--favourites {
+      border-left: 1px solid $grey6;
+      margin-left: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  &__settings {
+    width: 1rem;
+    margin-left: 0.5rem;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+  }
 }
