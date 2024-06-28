@@ -17,6 +17,7 @@
     width: 20rem;
     height: 2.5rem;
     border: 0.5px solid $grey5;
+    background-position: 0.5rem 0.7rem;
     &::placeholder {
       color: $grey4;
     }
@@ -30,6 +31,7 @@
     width: 10rem;
     height: 2.5rem;
     border: 0.5px solid $grey5;
+    background-position: 8rem 0.7rem;
     &::placeholder {
       color: $grey4;
     }
@@ -69,7 +71,7 @@
   }
   &__arrow-down {
     width: 1rem;
-    margin-right: 1rem;
+    margin-left: 1rem;
   }
   &__post-ad {
     border-radius: 4px;
@@ -83,4 +85,3 @@
     margin-left: auto;
   }
 }
-
