@@ -38,7 +38,7 @@ function Header() {
 							strokeLinecap="round"
 							strokeLinejoin="round"></path>
 					</svg>
-					Oakville/Halton R...
+					Canada
 				</button>
 				<div className="header__icons">
 					<svg

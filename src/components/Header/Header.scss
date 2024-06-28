@@ -35,7 +35,7 @@
     }
     &__icons {
         display: flex;
-        margin-left: 4rem;
+        margin-left: 2rem;
         margin-right: 1rem;
         gap: 1rem;
     }
@@ -50,6 +50,7 @@
     }
     &__location {
         border: 0;
+        width: 10rem;
         padding: 0 1.2rem;
         height: 2.5rem;
         font-weight: 600;
@@ -67,6 +68,7 @@
     }
     &__arrow-down {
         width: 1rem;
+        margin-right: 1rem;
     }
     &__post-ad {
         border-radius: 4px;
