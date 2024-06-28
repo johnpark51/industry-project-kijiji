@@ -1,26 +1,26 @@
 import "./App.scss";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from './pages/HomePage/HomePage';
+import HomePage from "./pages/HomePage/HomePage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import MessagePage from "./pages/MessagePage/MessagePage";
 
 function App() {
-	return (
-		<>
-			<BrowserRouter>
-      <Header />
+  return (
+    <>
+      <BrowserRouter>
+        <Header />
         <NavBar />
-				<Routes>
-					<Route path="/" element={<HomePage />}></Route>
-          <Route path="/" element={<MessagePage />}></Route>
-				</Routes>
-			</BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/msg" element={<MessagePage />}></Route>
+        </Routes>
+      </BrowserRouter>
       <Footer />
-		</>
-	);
+    </>
+  );
 }
 
 export default App;
