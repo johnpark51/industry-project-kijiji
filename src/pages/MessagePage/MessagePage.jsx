@@ -10,7 +10,7 @@ function MessagePage() {
     <div id="container">
       <div className="message-page__right">
         <Chat />
-        <h1>Put User Profile component here</h1>
+        <UserCard />
       </div>
     </div>
   );
