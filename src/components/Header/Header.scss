@@ -1,2 +1,82 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
+
+.header {
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    &__logo {
+        width: 4rem;
+        margin-right: 2rem;
+    }
+    &__input {
+        background: url("../../assets/images/search.png") no-repeat scroll 7px 7px;
+        background-size: 1rem;
+        border-radius: 4px;
+        padding: 1rem 2rem;
+        width: 20rem;
+        height: 2.5rem;
+        border: 0.5px solid $grey5;
+        &::placeholder {
+            color: $grey4;
+        }
+    }
+    &__categories {
+        background: url("../../assets/images/arrow-down.png") no-repeat scroll right 7px top 7px;;
+        background-size: 1rem;
+        border-radius: 4px;
+        padding: 1rem 2rem;
+        width: 10rem;
+        height: 2.5rem;
+        border: 0.5px solid $grey5;
+        &::placeholder {
+            color: $grey4;
+        }
+    }
+    &__icons {
+        display: flex;
+        margin-left: 4rem;
+        margin-right: 1rem;
+        gap: 1rem;
+    }
+    &__search-button {
+        border-radius: 4px;
+        padding: 0 1.2rem;
+        height: 2.5rem;
+        background-color: white;
+        color: $grey3;
+        font-weight: 600;
+        border: 0.5px solid $grey2;
+    }
+    &__location {
+        border: 0;
+        padding: 0 1.2rem;
+        height: 2.5rem;
+        font-weight: 600;
+        background-color: white;
+        color: $grey3;
+        display: flex;
+        align-items: center;
+    }
+    &__profile {
+        border: 0;
+        border-radius: 50%;
+        background-color:#EBDAEF;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    &__arrow-down {
+        width: 1rem;
+    }
+    &__post-ad {
+        border-radius: 4px;
+        padding: 0 1.2rem;
+        width: 6.5rem;
+        height: 2.5rem;
+        background-color: $grey;
+        color: white;
+        font-weight: 600;
+        border: 0.5px solid $grey2;
+        margin-left: auto;
+    }
+}
