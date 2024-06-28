@@ -67,23 +67,24 @@
 }
 
 .message.sender {
-  padding: 8px;
+  padding: 0.5rem 1rem;
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 0.875rem;
   width: fit-content;
-  background: #d1f7d1;
+  background: $purple;
+  color: white;
   align-self: flex-end;
   text-align: right;
 }
 
 .message.receiver {
-  padding: 8px;
+  padding: 0.5rem 1rem;
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 0.875rem;
   width: fit-content;
-  background: #f1d1d1;
+  background: $grey5;
   align-self: flex-start;
   text-align: left;
 }
